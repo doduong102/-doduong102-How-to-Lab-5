@@ -34,7 +34,6 @@ This is a short file
 It contains text and this is
 Also a haiku
 ```
-*Java file will be attached to the post*
 
 And this is runme.sh's contents:
 ```
@@ -50,6 +49,7 @@ else
     echo "Failed to compile"
 fi
 ```
+*Java file will be pretend attached to the post*
 
 ## The *Staff's* Response
 
