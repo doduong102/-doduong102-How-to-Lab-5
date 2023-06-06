@@ -150,3 +150,13 @@ After:
 <br />
 ![image](https://github.com/doduong102/How-to-Lab-5/assets/130004918/5679622e-c870-4de4-aca8-22dd2e3563e7)
 
+## Checklist
+The file & directory structure needed: included in screenshot
+The contents of each file before fixing the bug: Unchanged
+The full command line (or lines) you ran to trigger the bug: Included in screenshot
+A description of what to edit to fix the bug: Changed the run command `./runme.sh poem.txt 'Contains=haiku'` to `./runme.sh poem.txt 'contains=haiku'`
+
+## Reflection
+
+What I learned was how useful bash can be to really automate your code files. It's really convenient to be able to sort of "bundle" different programs together that accept different files located in different areas instead of having to write everything into one java file. I feel more compotent and I can accomplish and build a broader scope of tools now because of it.
+
