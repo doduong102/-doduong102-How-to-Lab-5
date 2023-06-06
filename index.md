@@ -62,8 +62,9 @@ In your `StringSearch.java` program within the StringSearch class, your if state
 Hi I think it worked:
 
 Before:
+<br />
 ![image](https://github.com/doduong102/How-to-Lab-5/assets/130004918/76f2bda3-1a65-4290-8ae9-60bb0c5a6725)
-
+<br />
 After:
 ![image](https://github.com/doduong102/How-to-Lab-5/assets/130004918/5679622e-c870-4de4-aca8-22dd2e3563e7)
 
