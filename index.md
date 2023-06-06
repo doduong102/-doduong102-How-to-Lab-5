@@ -59,7 +59,7 @@ In your `StringSearch.java` program within the StringSearch class, your if state
 
 ## The Student's Response
 
-Hi I think it worked:
+Hi I think it worked, thank you!
 
 Before:
 <br />
