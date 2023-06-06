@@ -2,11 +2,11 @@
 
 **What environment are you using (computer, operating system, web browser, terminal/editor, and so on)?**
 
-I am running vscode on a windows 11 machine
+I am running everything in a gitbash terminal within vscode on a Windows 11 machine
 
 **Detail the symptom you're seeing. Be specific; include both what you're seeing and what you expected to see instead. Screenshots are great, copy-pasted terminal output is also great. Avoid saying “it doesn't work”.**
 
-My code is working fine when I run I manually run it but breaks after I run it through my bash file. I'm  trying to run the `Contains=` query but it keeps printing out the entire file instead of the intended behavior.
+My code is working fine when I run I manually run it but breaks after I run it through my bash file. I'm trying to run the `Contains=` query but it keeps printing out the entire file instead of the intended behavior.
 
 Input:
 ```
