@@ -8,10 +8,11 @@ I am running vscode on a windows 11 machine
 
 My program is based off of last quarter's cse11 PA7.
 This is the poem.txt's contents:
-```This is a short file
+```
+This is a short file
 It contains text and this is
-Also a haiku```
-
+Also a haiku
+```
 
 **Detail the failure-inducing input and context. That might mean any or all of the command you're running, a test case, command-line arguments, working directory, even the last few commands you ran. Do your best to provide as much context as you can.**
 
