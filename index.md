@@ -49,7 +49,7 @@ else
     echo "Failed to compile"
 fi
 ```
-*Java file will be pretend attached to the post*
+*Java file pretend attached to the pretend Edstem post*
 
 ## The *Staff's* Response
 
