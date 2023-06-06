@@ -28,6 +28,87 @@ Also a haiku
 **Detail the failure-inducing input and context. That might mean any or all of the command you're running, a test case, command-line arguments, working directory, even the last few commands you ran. Do your best to provide as much context as you can.**
 
 My program is based off of last quarter's cse11 PA7. Specifically, StringSearchMilestone3.
+This is StringSearch.java's contents
+```
+import java.nio.file.*;
+import java.io.*;
+import java.util.Scanner;
+
+class FileHelper {
+    static String[] getLines(String path) {
+        try {
+            return Files.readAllLines(Paths.get(path)).toArray(String[]::new);
+        }
+        catch(IOException e) {
+            System.err.println("Error reading file " + path + ": " + e);
+            return new String[]{"Error reading file " + path + ": " + e};
+        }
+    }
+}
+
+interface Query {
+    boolean matches(String s);
+}
+
+interface Transform {
+    String transform(String s);
+}
+
+class ContainsQuery implements Query {
+    private String query;
+
+    public ContainsQuery(String query) {
+        this.query = query;
+    }
+
+    public boolean matches(String s) {
+        return s.contains(this.query);
+    }
+
+    public String toString() {
+        return query;
+    }
+}
+
+
+class StringSearch {
+
+    static Query readQuery(String q) {
+
+        if (q.startsWith("contains=")) {
+            String query = q.substring(9).replace("'", "");
+            return new ContainsQuery(query);
+            
+        }
+
+        else {
+            return new Query() {
+                public boolean matches(String s) {
+                    return true;
+                }
+            };
+        }
+    }
+
+    public static void main(String[] args) throws FileNotFoundException {
+        
+        File file = new File(args[0]);
+        Scanner scan = new Scanner(file);
+
+        Query query = readQuery(args.length > 1 ? args[1] : "");
+
+        while (scan.hasNextLine()) {
+            String line = scan.nextLine();
+            if (query == null || query.matches(line)) {
+                System.out.println(line);
+            }
+        }
+        
+        scan.close();
+    
+    }
+}
+```
 This is the poem.txt's contents:
 ```
 This is a short file
