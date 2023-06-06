@@ -136,7 +136,7 @@ fi
 
 Hi Student,
 
-In your `StringSearch.java` program within the StringSearch class, your if statement checks for "contains=" and not "Contains=" like you are running in your bash terminal. Try running it with `./runme.sh poem.txt 'contains=haiku'` and see if that fixes the problem. If it's still not behaving as intended make a follow-up post.
+In your `StringSearch.java` program within the StringSearch class, your if statement checks for `"contains="` and not `"Contains="` like you are running in your bash terminal. Try running it with `./runme.sh poem.txt 'contains=haiku'` and see if that fixes the problem. If it's still not behaving as intended make a follow-up post.
 
 ## The Student's Response
 
