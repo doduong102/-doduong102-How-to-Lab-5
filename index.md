@@ -65,5 +65,5 @@ Before:
 ![image](https://github.com/doduong102/How-to-Lab-5/assets/130004918/76f2bda3-1a65-4290-8ae9-60bb0c5a6725)
 
 After:
-[image](https://github.com/doduong102/How-to-Lab-5/assets/130004918/5679622e-c870-4de4-aca8-22dd2e3563e7)
+![image](https://github.com/doduong102/How-to-Lab-5/assets/130004918/5679622e-c870-4de4-aca8-22dd2e3563e7)
 
