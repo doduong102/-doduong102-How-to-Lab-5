@@ -6,15 +6,48 @@ I am running vscode on a windows 11 machine
 
 **Detail the symptom you're seeing. Be specific; include both what you're seeing and what you expected to see instead. Screenshots are great, copy-pasted terminal output is also great. Avoid saying “it doesn't work”.**
 
-My program is based off of last quarter's cse11 PA7.
-This is the poem.txt's contents:
+My code is working fine when I run I manually run it but breaks after I run it through my bash file. I'm  trying to run the `Contains=` query but it keeps printing out the entire file instead of the intended behavior.
+
+Input:
+`./runme.sh poem.txt 'Contains=haiku'`
+Expected:
 ```
+Compiled successfully, now running...
+Also a haiku
+```
+Actual:
+```
+Compiled successfully, now running...
 This is a short file
 It contains text and this is
 Also a haiku
 ```
 
 **Detail the failure-inducing input and context. That might mean any or all of the command you're running, a test case, command-line arguments, working directory, even the last few commands you ran. Do your best to provide as much context as you can.**
+
+My program is based off of last quarter's cse11 PA7. Specifically, StringSearchMilestone3.
+This is the poem.txt's contents:
+```
+This is a short file
+It contains text and this is
+Also a haiku
+```
+*Java file will be attached to the post*
+
+And this is runme.sh's contents:
+```
+program="StringSearch"
+
+javac $program.java
+
+if [ $? -eq 0 ]; then
+    echo "Compiled successfully, now running..."
+
+    java $program $1 $2
+else
+    echo "Failed to compile"
+fi
+```
 
 ## PART A 
 
