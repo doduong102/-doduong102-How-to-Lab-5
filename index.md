@@ -57,3 +57,13 @@ Hi Student,
 
 In your `StringSearch.java` program within the StringSearch class, your if statement checks for "contains=" and not "Contains=" like you are running in your bash terminal. Try running it with `./runme.sh poem.txt 'contains=haiku'` and see if that fixes the problem. If it's still not behaving as intended make a follow-up post.
 
+## The Student's Response
+
+Hi I think it worked:
+
+Before:
+![image](https://github.com/doduong102/How-to-Lab-5/assets/130004918/76f2bda3-1a65-4290-8ae9-60bb0c5a6725)
+
+After:
+[image](https://github.com/doduong102/How-to-Lab-5/assets/130004918/5679622e-c870-4de4-aca8-22dd2e3563e7)
+
